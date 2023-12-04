@@ -21,6 +21,8 @@ func main() {
 		fmt.Println(sol.Sol1())
 	case "2":
 		fmt.Println(sol.Sol2())
+	case "3":
+		fmt.Println(sol.Sol3())
 	default:
 		fmt.Println("Unknown command:", command)
 	}
