@@ -6,7 +6,7 @@ import (
 	"os"
 )
 
-func main() {
+func main2() {
 	args := os.Args
 
 	if len(args) < 2 {
@@ -23,8 +23,8 @@ func main() {
 		fmt.Println(sol.Sol2())
 	case "3":
 		fmt.Println(sol.Sol3())
-	// case "4":
-	// 	fmt.Println(sol.Sol4())
+	case "4":
+		fmt.Println(sol.Sol4())
 	// 	fmt.Println(sol.Sol4())
 	// case "5":
 	// 	fmt.Println(sol.Sol5())
