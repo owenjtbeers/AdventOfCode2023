@@ -6,7 +6,7 @@ import (
 	"os"
 )
 
-func main2() {
+func main() {
 	args := os.Args
 
 	if len(args) < 2 {
@@ -25,15 +25,16 @@ func main2() {
 		fmt.Println(sol.Sol3())
 	case "4":
 		fmt.Println(sol.Sol4())
-	// 	fmt.Println(sol.Sol4())
-	// case "5":
-	// 	fmt.Println(sol.Sol5())
-	// case "6":
-	// 	fmt.Println(sol.Sol5())
+	case "5":
+		fmt.Println(sol.Sol5())
+	case "6":
+		fmt.Println(sol.Sol5())
 	case "7":
 		fmt.Println(sol.Sol7())
 	case "8":
 		fmt.Println(sol.Sol8())
+	case "9":
+		fmt.Println(sol.Sol9())
 	default:
 		fmt.Println("Unknown command:", command)
 	}
